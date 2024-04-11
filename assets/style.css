@@ -86,3 +86,9 @@ body{
     transition: 0.3s;
     cursor: pointer;
 }
+
+footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;    
+}
