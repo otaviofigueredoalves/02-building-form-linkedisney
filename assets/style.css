@@ -1,0 +1,88 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    resize: none;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Input number: arrows hidden*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+body{
+    background-color: rgb(65, 92, 148);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto',sans-serif;
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+}
+#icon img {
+    height: 100px;
+
+}
+
+.container {
+    position: relative;
+    background: #ffffff;
+    width: 100%;
+    max-width: 700px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 7px rgb(14, 12, 43);
+
+}
+
+.container header {
+    font-weight: 600;
+    font-size: 2.0rem;
+    text-align: center;
+}
+.title-input {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.user-details input, textarea {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+.user-details input[type=file]{
+    border: none;
+    padding: 0;
+}
+
+#pray {
+    background-color: #0288D1;
+    font-size: 1.5rem;
+    padding: 15px 35px;
+    border-radius: 10px;
+}
+#pray:hover {
+    background-color: #025b8b;
+    box-shadow: 0px 0px 5px 0.4px rgb(77, 124, 212);
+    transition: 0.3s;
+    cursor: pointer;
+}
